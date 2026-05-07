@@ -1,4 +1,5 @@
-const { test, expect } = require('@playwright/test');
+
+import { test, expect, Page } from '@playwright/test';
 
 test.describe('Login Feature', () => {
 
@@ -20,4 +21,5 @@ test.describe('Dashboard Feature', () => {
   });
 
 });
+
 
